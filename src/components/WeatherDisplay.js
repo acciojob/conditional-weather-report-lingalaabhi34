@@ -3,8 +3,8 @@ const WeatherDisplay=({mock})=>{
     const temperaturecolor= mock.temperature>20 ? "red" : "blue";
 return(
     <div>
-        <p style={{color:temperaturecolor}}>Temperature :{mock.temperature}</p>
-        <p>Conditions :{mock.conditions}</p>
+        <span style={{color:temperaturecolor}}>Temperature: {mock.temperature}</span>
+        <p>Conditions: {mock.conditions}</p>
 
     </div>
 )
